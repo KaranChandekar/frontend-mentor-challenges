@@ -340,7 +340,10 @@ footer {
 /* subfooter */
 .subfooter {
   background-color: #b9cde4;
-  padding: var(--padding-inline-section);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
 }
 
 .sub-footer-container {
@@ -352,4 +355,12 @@ footer {
 /* companies-section */
 .companies-section .container .small-bold-text .logos {
   margin-top: 30px;
+}
+
+.logo-link-div img {
+  margin-bottom: 50px;
+}
+
+.logo-link-div .link-div a {
+  margin-right: 20px;
 }
