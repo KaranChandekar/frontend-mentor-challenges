@@ -8,7 +8,8 @@
 
 :root {
   --primary-text-color: #183b56;
-  --secondary-text-color: #eaffff;
+  /* --secondary-text-color: #eaffff; */
+  --secondary-text-color: #fcfcfcbc;
   --background-color: #0e1414;
   --accent-color: #2294ed;
   --accent-color-dark: #1d69a3;
@@ -17,7 +18,7 @@
 
 body {
   font-family: "poppins", sans-serif;
-  color: var(--primary-text-color);
+  color: #fff;
   background-color: var(--background-color);
 }
 
@@ -95,7 +96,7 @@ ul {
   border: 0.5px solid var(--secondary-text-color);
   border-radius: 6px;
   font-weight: 700;
-  color: var(--primary-text-color) !important;
+  color: #fff !important;
   padding: 12px 24px;
   transition: 0.2s ease-out;
 }
@@ -205,9 +206,9 @@ header {
 
 .features-section {
   padding: 80px var(--padding-inline-section) 0;
-  background-image: url("./assets/asset\ 41.png");
+  /* background-image: url("./assets/asset\ 41.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 .features-header {
@@ -217,6 +218,7 @@ header {
 
 .features-header h2 {
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .features-area {
@@ -231,6 +233,7 @@ header {
   gap: 20px;
   max-width: 30%;
   text-align: center;
+  margin: 20px 0;
 }
 
 .features-card img {

@@ -30,6 +30,13 @@
         flex-direction: column;
     }
 
+    .features-area {
+        justify-content: center;
+    }
+
+    .features-card {
+        min-width: calc(60%);
+    }
 
     .examples-area {
         gap: 20px;
@@ -60,8 +67,10 @@
             text-align: center;
         }
 
+        
+
         .features-card {
-            min-width: calc(50% - 10px);
+            min-width: calc(80%);
         }
 
         .big-feature-container {
