@@ -8,6 +8,7 @@
     <title>Young Nomads - Your SEO Partner</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-queries.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     </div>
 
     <!-- nav bar -->
-    <nav class="container main-nav flex">
+    <nav class="container main-nav flex" data-aos="fade-down" data-aos-delay="1200" data-aos-duration="1000">
         <a href="#" class="company-logo">
             <img src="./assets/brand-logo.png" alt="company company-logo">
         </a>
@@ -40,11 +41,11 @@
     <header>
         <div class="container header-section flex">
             <div class="header-left">
-                <h1>Young Nomads</h1>
-                <p>The SEO Company that will grow you online..</p>
-                <a href="#" class="primary-button get-started-btn">Get Started</a>
+                <h1 data-aos="fade-down" data-aos-delay="400">Young Nomads</h1>
+                <p data-aos="fade-down" data-aos-delay="500">The SEO Company that will grow you online..</p>
+                <a href="#" class="primary-button get-started-btn" data-aos="fade-down" data-aos-delay="600">Get Started</a>
             </div>
-            <div class="header-right">
+            <div class="header-right" data-aos="fade-up" data-aos-delay="700">
                 <img src="./assets/asset 2.png" alt="Hero image">
             </div>
         </div>
@@ -265,16 +266,10 @@
         </div>
         <h5>Copyright © 2023 Young Nomads | Digital Marketing</h5>
     </div>
-    <script src="https://kit.fontawesome.com/628003722a.js" crossorigin="anonymous"></script>
-    
-    <script>
-        const toggleButton = document.getElementById('nav-toggle');
-        const navLinks = document.getElementById('nav-links');
 
-        toggleButton.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        })
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/628003722a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
