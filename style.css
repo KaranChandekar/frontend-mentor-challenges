@@ -325,7 +325,7 @@ header {
 
 .cta-section {
   padding: 120px var(--padding-inline-section) 80px;
-  background-color: #183b54;
+  background-color: #182222;
 }
 
 .cta-section-container {
@@ -351,9 +351,18 @@ footer {
   justify-content: space-between;
 }
 
+footer .brand-logo {
+  margin-bottom: 30px;
+}
+
+footer .hover-link i {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
 /* subfooter */
 .subfooter {
-  background-color: #b9cde4;
+  border-top: 1px solid #b9cde4;
   display: flex;
   align-items: center;
   justify-content: space-between;
