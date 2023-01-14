@@ -8,7 +8,8 @@
 
 :root {
   --primary-text-color: #183b56;
-  --secondary-text-color: #577592;
+  --secondary-text-color: #eaffff;
+  --background-color: #0e1414;
   --accent-color: #2294ed;
   --accent-color-dark: #1d69a3;
   --padding-inline-section: 20px;
@@ -17,11 +18,13 @@
 body {
   font-family: "poppins", sans-serif;
   color: var(--primary-text-color);
+  background-color: var(--background-color);
 }
 
 h1 {
   font-size: 4rem;
   margin-bottom: 16px;
+  color: #fff;
 }
 
 h2 {
@@ -54,7 +57,7 @@ ul {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1300px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
   overflow: hidden;
@@ -66,7 +69,7 @@ ul {
 }
 
 .hover-link {
-  color: var(--primary-text-color);
+  color: #fff;
   transition: 0.2s ease-out;
 }
 
@@ -80,9 +83,8 @@ ul {
   font-weight: 700;
   color: white !important;
   padding: 17px 34px;
-  box-shadow: 0 0 2px var(--secondary-text-color);
-  transition: 0.2s ease-out;
   text-align: center;
+  /* transition: all .2s !important; */
 }
 
 .primary-button:hover {
@@ -105,8 +107,8 @@ ul {
 
 /* .top-banner */
 .top-banner {
-  background-image: url("./assets/asset\ 30.png");
-  background-color: #4fb3d4;
+  /* background-image: url("./assets/asset\ 30.png"); */
+  background-color: var(--accent-color);
   background-size: 300px;
 }
 
@@ -125,6 +127,11 @@ ul {
 
 .company-logo img {
   width: 150px;
+}
+
+.brand-logo {
+  color: #fff;
+  font-size: 30px;
 }
 
 .nav-links {
@@ -174,20 +181,24 @@ header {
 
 .companies-header {
   text-align: center;
-  margin-block: 30px;
-  color: var(--primary-text-color);
   margin-bottom: 20px;
   margin-top: 50px;
 }
 
+.companies-header h4 {
+  color: var(--secondary-text-color);
+}
+
 .logos {
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 20px;
+  width: 100%;
+}
+
+.logo-wrapper {
+  height: 25%;
 }
 
 .logo {
-  height: 46px;
+  width: 100%;
 }
 
 /* features section */
