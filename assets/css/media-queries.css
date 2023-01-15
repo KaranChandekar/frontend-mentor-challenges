@@ -88,6 +88,20 @@
   .link-column {
     align-items: stretch;
   }
+
+  /* subfooter */
+  .subfooter {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 10px;
+  }
+
+  .sub-footer-container {
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and(max-width:479px) {
