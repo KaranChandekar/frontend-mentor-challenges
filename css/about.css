@@ -20,10 +20,14 @@ body {
   font-family: "poppins", sans-serif;
   color: #fff;
   background-color: var(--background-color);
+  background-image: url(/images/about-blur.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 h1 {
   font-size: 4rem;
+  font-weight: 100;
   margin-bottom: 16px;
   color: #fff;
 }
@@ -36,12 +40,6 @@ h3 {
   font-size: 1.5rem;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.25rem;
-  color: var(--secondary-text-color);
-}
-
 a {
   text-decoration: none;
   display: inline-block;
@@ -52,11 +50,6 @@ ul {
 }
 
 /* utility classes */
-.small-bold-text {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
 .container {
   max-width: 1300px;
   margin-inline: auto;
@@ -151,6 +144,8 @@ ul {
 .nav-toggle {
   display: none;
 }
+
+/* Main Container */
 
 /* footer */
 
