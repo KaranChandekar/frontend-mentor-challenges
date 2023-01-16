@@ -1,8 +1,11 @@
 AOS.init();
 
-const toggleButton = document.getElementById("nav-toggle");
+const menuIcon = document.getElementById("menu-icon");
 const navLinks = document.getElementById("nav-links");
 
-toggleButton.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
+const onToggleMenu = (e) => {
+  e.name = e.name === "menu" ? "close" : "menu";
+
+  navLinks.classList.toggle("opacity-0");
+  navLinks.classList.toggle("top-[-400px]");
+};
