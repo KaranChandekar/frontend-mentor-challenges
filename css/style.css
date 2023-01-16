@@ -20,6 +20,8 @@ body {
   font-family: "poppins", sans-serif;
   color: #fff;
   background-color: var(--background-color);
+  background-image: url(/images/bg-home.svg);
+  background-repeat: no-repeat;
 }
 
 h1 {
