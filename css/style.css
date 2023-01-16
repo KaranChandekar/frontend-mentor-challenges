@@ -74,6 +74,10 @@ ul {
   transition: 0.2s ease-out;
 }
 
+.hover-link.active {
+  color: var(--accent-color);
+}
+
 .hover-link:hover {
   color: var(--accent-color);
 }
