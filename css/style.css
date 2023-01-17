@@ -153,10 +153,6 @@ ul {
   font-size: 30px;
 }
 
-.nav-links {
-  /* flex-basis: 730px; */
-}
-
 .nav-links ul {
   gap: 40px;
 }
