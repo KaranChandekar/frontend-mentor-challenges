@@ -240,7 +240,7 @@ ul {
 .career {
   margin: 1rem;
   border: 1px solid rgb(80, 80, 80);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 
@@ -253,6 +253,34 @@ ul {
 
 .career h4 {
   margin-bottom: 1.5rem;
+}
+
+.career p {
+  line-height: 2rem;
+}
+
+/* Grow Section */
+.grow-container {
+  display: flex;
+  margin: 5rem 0;
+  align-items: center;
+}
+
+.grow-container .grow-description h2 {
+  margin-bottom: 2rem;
+}
+
+.grow-container .grow-description p {
+  line-height: 2rem;
+}
+
+.grow-container .grow-description i {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.grow-container img {
+  width: 35rem;
 }
 
 /* footer */

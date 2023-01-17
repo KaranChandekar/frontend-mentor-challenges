@@ -48,6 +48,13 @@
   .career-bottom {
     grid-template-columns: auto auto;
   }
+
+  /* Grow Section */
+
+  .grow-container {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -102,6 +109,12 @@
   /* Career Section */
   .career-bottom {
     grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .grow-container img {
+    width: 90vw;
   }
 }
 
