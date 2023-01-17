@@ -34,6 +34,15 @@
     border-radius: 0.5rem;
     padding: 3rem;
   }
+
+  /* Team Section */
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .cards-container h3 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -52,6 +61,24 @@
 
   .link-column {
     align-items: stretch;
+  }
+
+  /* Team Section */
+  .team-container {
+    text-align: center;
+  }
+
+  .card-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-container img {
+    margin-bottom: 2rem;
+  }
+
+  .team-container .text {
+    margin-left: 0;
   }
 
   /* subfooter */
