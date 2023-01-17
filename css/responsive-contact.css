@@ -54,6 +54,20 @@
     align-items: stretch;
   }
 
+  .contact-head {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 0;
+  }
+
+  .contact-head .description {
+    width: 100%;
+  }
+
+  .contact-head img {
+    width: 40vw;
+  }
+
   /* subfooter */
   .subfooter {
     flex-direction: column;
@@ -69,6 +83,13 @@
 }
 
 @media (max-width: 540px) {
+  .contact-head img {
+    width: 60vw;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and(max-width:479px) {
