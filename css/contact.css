@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  /* --secondary-text-color: #eaffff; */
+  --secondary-text-color: #fcfcfcbc;
+  --background-color: #0e1414;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  background-color: var(--background-color);
+  background-image: url(/images/contact-glow.944a9bf8.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 100;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: var(--secondary-text-color);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* utility classes */
+.container {
+  max-width: 1300px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.hover-link {
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.hover-link.active {
+  color: var(--accent-color);
+}
+
+.hover-link:hover {
+  color: var(--accent-color);
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white !important;
+  padding: 17px 34px;
+  text-align: center;
+  /* transition: all .2s !important; */
+}
+
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: #fff !important;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+
+/* .top-banner */
+.top-banner {
+  /* background-image: url("./assets/asset\ 30.png"); */
+  background-color: var(--accent-color);
+  background-size: 300px;
+}
+
+.banner-text {
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+/* nav-bar */
+.main-nav {
+  margin-top: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.company-logo img {
+  width: 150px;
+}
+
+.brand-logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-links ul {
+  gap: 40px;
+}
+
+.nav-toggle {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: lighter;
+  display: none;
+}
