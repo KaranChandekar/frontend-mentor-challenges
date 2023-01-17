@@ -131,9 +131,15 @@ ul {
   background-size: 300px;
 }
 
+.top-banner .container p {
+  margin-bottom: 0;
+}
+
 .banner-text {
+  font-size: 0.9rem;
+  font-weight: bold;
   color: white;
-  padding: 15px 30px;
+  padding: 10px 30px;
   text-align: center;
 }
 
