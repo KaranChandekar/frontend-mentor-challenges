@@ -44,9 +44,7 @@
 
   .footer-container {
     flex-direction: column;
-    text-align: center;
     gap: 40px;
-    align-items: center;
   }
 
   .link-column {
@@ -61,9 +59,8 @@
   }
 
   .sub-footer-container {
-    justify-content: space-between;
+    flex-direction: column;
     gap: 30px;
-    flex-wrap: wrap;
     margin-bottom: 30px;
   }
 }
