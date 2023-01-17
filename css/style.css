@@ -27,21 +27,31 @@ body {
 
 h1 {
   font-size: 4rem;
+  font-weight: 200;
   margin-bottom: 16px;
   color: #fff;
 }
 
 h2 {
   font-size: 2rem;
+  font-weight: 200;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 0.8rem;
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: var(--secondary-text-color);
 }
 
@@ -55,9 +65,8 @@ ul {
 }
 
 /* utility classes */
-.small-bold-text {
+.small-text {
   font-size: 1rem;
-  font-weight: 700;
 }
 
 .container {
@@ -70,6 +79,7 @@ ul {
 .flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .hover-link {
@@ -144,15 +154,17 @@ ul {
 }
 
 .nav-links {
-  flex-basis: 730px;
+  /* flex-basis: 730px; */
 }
 
 .nav-links ul {
-  justify-content: end;
   gap: 40px;
 }
 
 .nav-toggle {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: lighter;
   display: none;
 }
 
@@ -167,7 +179,7 @@ header {
 }
 
 .header-left {
-  max-width: 40vw;
+  max-width: 50vw;
 }
 
 .header-left h1 {
@@ -338,16 +350,20 @@ header {
   padding: 30px var(--padding-inline-section);
 }
 
-.big-feature-container {
-  gap: 30px;
+.big-feature-section h3 {
+  font-size: 2rem;
 }
 
 #second-big-feature {
   flex-direction: row-reverse;
 }
 
+.feature-img {
+  text-align: center;
+}
+
 .feature-img img {
-  width: 100%;
+  width: 70%;
 }
 
 .feature-desc {
@@ -364,6 +380,7 @@ header {
   flex-direction: column;
   gap: 20px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .examples-area {
@@ -377,6 +394,7 @@ header {
   position: relative;
   height: 300px;
   background: black;
+  border-radius: 0.5rem;
   background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
     url("./assets/asset\ 36.jpeg");
   background-size: cover;
@@ -408,21 +426,22 @@ header {
 }
 
 /* cta section */
-.cta-section-container {
-  flex-direction: column;
-  gap: 30px;
-  color: white;
-  text-align: center;
-}
 
 .cta-section {
-  padding: 120px var(--padding-inline-section) 80px;
   background-color: #182222;
+  justify-content: center;
 }
 
 .cta-section-container {
+  flex-direction: column;
   color: white;
-  margin-top: 20px;
+  text-align: center;
+  padding: 80px 20px;
+  gap: 30px;
+}
+
+.container p {
+  margin-bottom: 10px;
 }
 
 /* footer */
