@@ -41,7 +41,7 @@ h3 {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--secondary-text-color);
 }
 
@@ -138,15 +138,17 @@ ul {
 }
 
 .nav-links {
-  flex-basis: 730px;
+  /* flex-basis: 730px; */
 }
 
 .nav-links ul {
-  justify-content: end;
   gap: 40px;
 }
 
 .nav-toggle {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: lighter;
   display: none;
 }
 
