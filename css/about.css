@@ -22,13 +22,12 @@ body {
   background-color: var(--background-color);
   background-image: url(/images/about-blur.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 h1 {
   font-size: 4rem;
   font-weight: 100;
-  margin-bottom: 16px;
   color: #fff;
 }
 
@@ -38,6 +37,12 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
 }
 
 a {
@@ -146,6 +151,25 @@ ul {
 }
 
 /* Main Container */
+.about-main {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-description {
+  text-align: center;
+  width: 40rem;
+}
+
+.about-description h1 {
+  margin-bottom: 2rem;
+}
+
+.about-description p {
+  margin-bottom: 1rem;
+}
 
 /* footer */
 
