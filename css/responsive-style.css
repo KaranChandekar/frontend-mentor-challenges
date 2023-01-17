@@ -40,6 +40,11 @@
     min-width: calc(60%);
   }
 
+  /* CIO section */
+  .grid {
+    padding: 2rem;
+  }
+
   .examples-area {
     gap: 20px;
   }
@@ -70,6 +75,26 @@
 
   .features-card {
     min-width: calc(80%);
+  }
+
+  /* CIO section */
+  .grid {
+    padding: 1rem;
+  }
+
+  .grid-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .grid-item i {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .grid-item .descreption {
+    margin-left: 0;
   }
 
   .big-feature-container {
@@ -103,6 +128,12 @@
     gap: 30px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: auto;
   }
 }
 
