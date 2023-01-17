@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 h1,
@@ -221,6 +221,38 @@ ul {
 
 .card-bottom p {
   line-height: 2rem;
+}
+
+.career-head {
+  text-align: center;
+}
+
+.career-head p {
+  color: var(--accent-color);
+}
+
+.career-bottom {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 4rem 0;
+}
+
+.career {
+  margin: 1rem;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.career img {
+  width: 5rem;
+  background-color: #182222;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.career h4 {
+  margin-bottom: 1.5rem;
 }
 
 /* footer */

@@ -43,6 +43,11 @@
   .cards-container h3 {
     font-size: 2rem;
   }
+
+  /* Career Section */
+  .career-bottom {
+    grid-template-columns: auto auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -92,6 +97,11 @@
     flex-direction: column;
     gap: 30px;
     margin-bottom: 30px;
+  }
+
+  /* Career Section */
+  .career-bottom {
+    grid-template-columns: auto;
   }
 }
 
