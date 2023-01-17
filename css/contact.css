@@ -182,3 +182,45 @@ ul {
 .contact-head img {
   width: 30vw;
 }
+
+/* footer */
+
+footer {
+  padding-block: 80px;
+  background: color #ebf2fa;
+}
+
+.link-column {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer .brand-logo {
+  margin-bottom: 30px;
+}
+
+footer .hover-link i {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+/* subfooter */
+.subfooter {
+  border-top: 1px solid #b9cde4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.sub-footer-container {
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
