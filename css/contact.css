@@ -234,7 +234,7 @@ textarea {
 .support-container {
   display: flex;
   justify-content: center;
-  margin: 5rem 0;
+  margin: 5rem auto;
 }
 
 .support-team {
@@ -256,7 +256,7 @@ textarea {
   background-image: url(/images/cta-red-glow.ebf09cca.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 5rem 0;
   display: flex;
   justify-content: center;
