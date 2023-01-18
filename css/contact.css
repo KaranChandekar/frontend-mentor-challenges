@@ -28,6 +28,7 @@ body {
 h1 {
   font-size: 4rem;
   color: #fff;
+  margin-bottom: 1.8rem;
 }
 
 h2 {
@@ -53,6 +54,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   color: var(--secondary-text-color);
+  line-height: 2rem;
 }
 
 a {
@@ -97,6 +99,8 @@ ul {
   color: white !important;
   padding: 17px 34px;
   text-align: center;
+  border: none;
+  cursor: pointer;
   /* transition: all .2s !important; */
 }
 
@@ -171,16 +175,62 @@ ul {
   width: 30rem;
 }
 
-.contact-head .description h1 {
-  margin-bottom: 1.8rem;
-}
-
-.contact-head .description p {
-  line-height: 2rem;
-}
-
 .contact-head img {
   width: 30vw;
+}
+
+/* Contact Form */
+.form-container {
+  margin: 5rem;
+  padding: 4rem;
+  background-image: url(/images/contact-page-contact-form.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+}
+
+.form-container form {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.form-container form input,
+textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+textarea {
+  height: 15rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+
+input,
+textarea {
+  padding: 1rem 2rem 1rem 0;
+  margin: 1rem 0;
+}
+
+textarea {
+  margin-bottom: 2rem;
 }
 
 /* footer */
