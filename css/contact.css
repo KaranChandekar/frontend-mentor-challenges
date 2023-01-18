@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 h3 {
@@ -52,7 +52,7 @@ h4 {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--secondary-text-color);
   line-height: 2rem;
 }
@@ -216,6 +216,7 @@ textarea {
 
 textarea {
   height: 15rem;
+  margin-bottom: 2rem;
 }
 
 input::placeholder,
@@ -229,7 +230,23 @@ textarea {
   margin: 1rem 0;
 }
 
-textarea {
+/* Already Customre */
+.support-container {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.support-team {
+  text-align: center;
+  width: 30rem;
+}
+
+.support-team h2 {
+  margin-bottom: 2rem;
+}
+
+.support-team p {
   margin-bottom: 2rem;
 }
 
