@@ -60,6 +60,34 @@
   .cta-section {
     padding-block: 80px;
   }
+
+  .newsletter {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .newsletter h2 {
+    margin-bottom: 2rem;
+  }
+
+  .newsletter .form {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .newsletter input {
+    padding: 1rem;
+  }
+
+  /* subfooter */
+  .subfooter {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 10px;
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -131,13 +159,6 @@
 
   .link-column {
     align-items: stretch;
-  }
-
-  /* subfooter */
-  .subfooter {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 50px 10px;
   }
 
   .sub-footer-container {
