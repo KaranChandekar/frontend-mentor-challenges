@@ -119,19 +119,6 @@ ul {
   color: var(--accent-color) !important;
 }
 
-/* .top-banner */
-.top-banner {
-  /* background-image: url("./assets/asset\ 30.png"); */
-  background-color: var(--accent-color);
-  background-size: 300px;
-}
-
-.banner-text {
-  color: white;
-  padding: 15px 30px;
-  text-align: center;
-}
-
 /* nav-bar */
 .main-nav {
   margin-top: 20px;
