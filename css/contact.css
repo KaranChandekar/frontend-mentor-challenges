@@ -250,6 +250,23 @@ textarea {
   margin-bottom: 2rem;
 }
 
+/* Book a Demo */
+.demo-container {
+  text-align: center;
+  background-image: url(/images/cta-red-glow.ebf09cca.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .5rem;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.demo-container .text {
+  width: 40rem;
+}
+
 /* footer */
 
 footer {
