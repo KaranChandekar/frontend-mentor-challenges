@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.7rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -214,17 +214,17 @@ textarea {
   color: #fff;
 }
 
-textarea {
+.form-container form textarea {
   height: 15rem;
   margin-bottom: 2rem;
 }
 
-input::placeholder,
+.form-container form input::placeholder,
 textarea::placeholder {
   color: #fff;
 }
 
-input,
+.form-container form input,
 textarea {
   padding: 1rem 2rem 1rem 0;
   margin: 1rem 0;
@@ -292,6 +292,37 @@ footer .brand-logo {
 footer .hover-link i {
   margin-right: 15px;
   margin-bottom: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter h2 {
+  width: 25rem;
+}
+
+.newsletter .form {
+  border: 1px solid #b9cde4;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.newsletter input {
+  padding: 1rem 10rem 1rem 1rem;
+  background-color: transparent;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.newsletter input::placeholder {
+  color: #fff;
 }
 
 /* subfooter */
