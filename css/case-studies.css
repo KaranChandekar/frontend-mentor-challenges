@@ -145,3 +145,76 @@ ul {
   font-weight: lighter;
   display: none;
 }
+
+/* footer */
+
+footer {
+  padding-block: 80px;
+  background: color #ebf2fa;
+}
+
+.link-column {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer .brand-logo {
+  margin-bottom: 30px;
+}
+
+footer .hover-link i {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter h2 {
+  width: 25rem;
+}
+
+.newsletter .form {
+  border: 1px solid #b9cde4;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.newsletter input {
+  padding: 1rem 10rem 1rem 1rem;
+  background-color: transparent;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.newsletter input::placeholder {
+  color: #fff;
+}
+
+/* subfooter */
+.subfooter {
+  border-top: 1px solid #b9cde4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.sub-footer-container {
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}

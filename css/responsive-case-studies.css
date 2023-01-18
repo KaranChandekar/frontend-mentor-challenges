@@ -35,6 +35,26 @@
     padding: 3rem;
   }
 
+  .newsletter {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .newsletter h2 {
+    margin-bottom: 2rem;
+  }
+
+  .newsletter .form {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .newsletter input {
+    padding: 1rem;
+  }
+
   /* subfooter */
   .subfooter {
     flex-direction: column;
