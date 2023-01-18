@@ -55,6 +55,34 @@
     flex-direction: column;
     text-align: center;
   }
+
+  .newsletter {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .newsletter h2 {
+    margin-bottom: 2rem;
+  }
+
+  .newsletter .form {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .newsletter input {
+    padding: 1rem;
+  }
+
+  /* subfooter */
+  .subfooter {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 10px;
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -91,13 +119,6 @@
 
   .team-container .text {
     margin-left: 0;
-  }
-
-  /* subfooter */
-  .subfooter {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 50px 10px;
   }
 
   .sub-footer-container {

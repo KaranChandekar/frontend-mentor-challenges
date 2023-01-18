@@ -31,7 +31,8 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 h3 {
@@ -308,6 +309,37 @@ footer .brand-logo {
 footer .hover-link i {
   margin-right: 15px;
   margin-bottom: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter h2 {
+  width: 25rem;
+}
+
+.newsletter .form {
+  border: 1px solid #b9cde4;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.newsletter input {
+  padding: 1rem 10rem 1rem 1rem;
+  background-color: transparent;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.newsletter input::placeholder {
+  color: #fff;
 }
 
 /* subfooter */
