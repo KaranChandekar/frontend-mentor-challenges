@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/output.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="xl:flex">
+      <div
+        class="p-6 text-center rounded-b-[2rem] bg-gradient-to-t from-light-royal-blue to-light-slate-blue max-w-[375px] mx-auto"
+      >
+        <p class="text-lg text-light-lavender">Your Result</p>
+
+        <div
+          class="rounded-full w-[130px] h-[130px] bg-gradient-to-t from-persian-blue to-violet-blue mx-auto my-4 flex flex-col items-center justify-center gap-1"
+        >
+          <h1 class="text-5xl font-bold text-white">76</h1>
+          <span class="text-sm opacity-40 text-light-lavender">of 100</span>
+        </div>
+
+        <h2 class="mb-2 text-2xl text-white">Great</h2>
+        <p class="leading-6 w-[255px] mx-auto text-light-lavender mb-2">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="p-6 max-w-[375px] mx-auto">
+        <h3 class="text-xl">Summary</h3>
+
+        <div>
+          <ul>
+            <li
+              class="flex justify-between p-3 my-4 rounded-lg bg-light-red bg-opacity-5"
+            >
+              <div class="flex">
+                <img src="/assets/images/icon-reaction.svg" alt="Reaction" />
+                <span class="ml-3 text-light-red">Reaction</span>
+              </div>
+              <div>80 <span class="opacity-50"> / 100</span></div>
+            </li>
+
+            <li
+              class="flex justify-between p-3 my-4 rounded-lg bg-orangey-yellow bg-opacity-5"
+            >
+              <div class="flex">
+                <img src="/assets/images/icon-memory.svg" alt="Memory" />
+                <span class="ml-3 text-orangey-yellow">Memory</span>
+              </div>
+              <div>92 <span class="opacity-50"> / 100</span></div>
+            </li>
+
+            <li
+              class="flex justify-between p-3 my-4 rounded-lg bg-green-teal bg-opacity-5"
+            >
+              <div class="flex">
+                <img src="/assets/images/icon-verbal.svg" alt="Verbal" />
+                <span class="ml-3 text-green-teal">Verbal</span>
+              </div>
+              <div>61 <span class="opacity-50"> / 100</span></div>
+            </li>
+
+            <li
+              class="flex justify-between p-3 my-4 rounded-lg bg-opacity-5 bg-cobalt-blue"
+            >
+              <div class="flex">
+                <img src="/assets/images/icon-visual.svg" alt="Visual" />
+                <span class="ml-3 text-cobalt-blue">Verbal</span>
+              </div>
+              <div>72 <span class="opacity-50"> / 100</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="w-full p-3 mt-2 text-white rounded-[5rem] bg-dark-gray-blue"
+        >
+          Continue
+        </button>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
