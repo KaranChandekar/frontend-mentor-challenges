@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="/styles/output.css" />
     <title>Frontend Mentor | Results summary component</title>
   </head>
-  <body>
-    <main class="xl:flex">
+  <body class="flex items-center justify-center h-screen">
+    <main class="lg:flex lg:shadow-lg rounded-[2rem]">
       <div
-        class="p-6 text-center rounded-b-[2rem] bg-gradient-to-t from-light-royal-blue to-light-slate-blue max-w-[375px] mx-auto"
+        class="p-6 text-center rounded-b-[2rem] lg:rounded-[2rem] bg-gradient-to-t from-light-royal-blue to-light-slate-blue max-w-[375px] mx-auto lg:flex flex-col items-center justify-center"
       >
         <p class="text-lg text-light-lavender">Your Result</p>
 
@@ -39,49 +39,47 @@
       <div class="p-6 max-w-[375px] mx-auto">
         <h3 class="text-xl">Summary</h3>
 
-        <div>
-          <ul>
-            <li
-              class="flex justify-between p-3 my-4 rounded-lg bg-light-red bg-opacity-5"
-            >
-              <div class="flex">
-                <img src="/assets/images/icon-reaction.svg" alt="Reaction" />
-                <span class="ml-3 text-light-red">Reaction</span>
-              </div>
-              <div>80 <span class="opacity-50"> / 100</span></div>
-            </li>
+        <ul>
+          <li
+            class="flex justify-between p-3 my-4 rounded-lg bg-light-red bg-opacity-5 lg:w-[250px]"
+          >
+            <div class="flex">
+              <img src="/assets/images/icon-reaction.svg" alt="Reaction" />
+              <span class="ml-3 text-light-red">Reaction</span>
+            </div>
+            <div>80 <span class="opacity-50"> / 100</span></div>
+          </li>
 
-            <li
-              class="flex justify-between p-3 my-4 rounded-lg bg-orangey-yellow bg-opacity-5"
-            >
-              <div class="flex">
-                <img src="/assets/images/icon-memory.svg" alt="Memory" />
-                <span class="ml-3 text-orangey-yellow">Memory</span>
-              </div>
-              <div>92 <span class="opacity-50"> / 100</span></div>
-            </li>
+          <li
+            class="flex justify-between p-3 my-4 rounded-lg bg-orangey-yellow bg-opacity-5"
+          >
+            <div class="flex">
+              <img src="/assets/images/icon-memory.svg" alt="Memory" />
+              <span class="ml-3 text-orangey-yellow">Memory</span>
+            </div>
+            <div>92 <span class="opacity-50"> / 100</span></div>
+          </li>
 
-            <li
-              class="flex justify-between p-3 my-4 rounded-lg bg-green-teal bg-opacity-5"
-            >
-              <div class="flex">
-                <img src="/assets/images/icon-verbal.svg" alt="Verbal" />
-                <span class="ml-3 text-green-teal">Verbal</span>
-              </div>
-              <div>61 <span class="opacity-50"> / 100</span></div>
-            </li>
+          <li
+            class="flex justify-between p-3 my-4 rounded-lg bg-green-teal bg-opacity-5"
+          >
+            <div class="flex">
+              <img src="/assets/images/icon-verbal.svg" alt="Verbal" />
+              <span class="ml-3 text-green-teal">Verbal</span>
+            </div>
+            <div>61 <span class="opacity-50"> / 100</span></div>
+          </li>
 
-            <li
-              class="flex justify-between p-3 my-4 rounded-lg bg-opacity-5 bg-cobalt-blue"
-            >
-              <div class="flex">
-                <img src="/assets/images/icon-visual.svg" alt="Visual" />
-                <span class="ml-3 text-cobalt-blue">Verbal</span>
-              </div>
-              <div>72 <span class="opacity-50"> / 100</span></div>
-            </li>
-          </ul>
-        </div>
+          <li
+            class="flex justify-between p-3 my-4 rounded-lg bg-opacity-5 bg-cobalt-blue"
+          >
+            <div class="flex">
+              <img src="/assets/images/icon-visual.svg" alt="Visual" />
+              <span class="ml-3 text-cobalt-blue">Verbal</span>
+            </div>
+            <div>72 <span class="opacity-50"> / 100</span></div>
+          </li>
+        </ul>
 
         <button
           class="w-full p-3 mt-2 text-white rounded-[5rem] bg-dark-gray-blue"
