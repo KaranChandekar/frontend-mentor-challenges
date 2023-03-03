@@ -2316,6 +2316,10 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -2367,6 +2371,11 @@ video {
       max-width: 1536px;
     }
   }
+}
+
+.hover\:bg-very-dark-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 21% 14% / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
