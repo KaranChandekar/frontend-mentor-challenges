@@ -9,6 +9,7 @@ The repository contains subdirectories for each challenge that I have completed.
 Here are the challenges that I have completed so far:
 
 - [Challenge 1: Results Summary Component](./results-summary-component/)
+- [Challenge 2: Product Preview Card Component](./product-preview-card-component/)
 
 ## Technologies Used
 
