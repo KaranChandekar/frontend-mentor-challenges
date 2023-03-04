@@ -13,10 +13,6 @@ module.exports = {
       fraunces: ['Fraunces', 'serif'],
       montserrat: ['Montserrat', 'sans-serif'],
     },
-    backgroundImage: {
-      'product-mobile': "url('./images/image-product-mobile.jpg')",
-      'product-desktop': "url('./images/image-product-desktop.jpg')",
-    },
   },
   plugins: [],
 };
