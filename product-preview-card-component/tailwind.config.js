@@ -11,7 +11,7 @@ module.exports = {
     },
     fontFamily: {
       fraunces: ['Fraunces', 'serif'],
-      montserrat: ['Montserrat', 'sans - serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
     },
     backgroundImage: {
       'product-mobile': "url('./images/image-product-mobile.jpg')",
