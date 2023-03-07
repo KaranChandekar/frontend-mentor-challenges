@@ -11,6 +11,7 @@ Here are the challenges that I have completed so far:
 - [Challenge 1: Results Summary Component](./results-summary-component/)
 - [Challenge 2: Product Preview Card Component](./product-preview-card-component/)
 - [Challenge 3: QR Code Component](./qr-code-component/)
+- [Challenge 4: NFT Preview Card Component](./nft-preview-card-component/)
 
 ## Technologies Used
 
