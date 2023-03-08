@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/output.css">
-  <title>Frontend Mentor | NFT preview card component</title>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="grid w-full h-screen bg-main-bg-blue place-content-center">
+    <article class="p-5 m-5 rounded-xl bg-card-bg-blue max-w-[340px]">
+      <img
+        class="mb-4 rounded-lg"
+        src="/images/image-equilibrium.jpg"
+        alt="Equilibrium"
+      />
+      <h1 class="font-semibold text-2xl text-white mb-2">Equilibrium #3429</h1>
+      <p class="text-lg text-soft-blue">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="py-4 border-b border-line-blue flex">
+        <div class="flex w-1/2">
+          <div class="flex items-center justify-center mr-2">
+            <img src="/images/icon-ethereum.svg" alt="Ethereum" />
+          </div>
+          <span class="text-lg text-cyan">0.041 ETH</span>
+        </div>
+        <div class="flex w-1/2 justify-end">
+          <div class="flex items-center justify-center mr-2">
+            <img src="/images/icon-clock.svg" alt="Clock" />
+          </div>
+          <span class="text-lg text-soft-blue">3 days left</span>
+        </div>
+      </div>
+      <div class="flex w-full items-center pt-4">
+        <img
+          class="w-10 h-10 border-white border rounded-full mr-4"
+          src="/images/image-avatar.png"
+          alt="Avatar"
+        />
+        <p class="text-white">
+          <span class="text-soft-blue">Creation of</span> Jules Wyvern
+        </p>
+      </div>
+    </article>
+  </body>
 </html>
