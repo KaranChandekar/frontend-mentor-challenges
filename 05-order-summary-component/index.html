@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="/styles/output.css">
-  <title>Frontend Mentor | Order summary card</title>
-</head>
-<body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/output.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body class="bg-pale-blue h-screen w-full grid place-content-center">
+    <article
+      class="max-w-[330px] rounded-2xl overflow-hidden bg-very-pale-blue shadow-2xl shadow-desaturated-blue mx-4"
+    >
+      <img src="/images/illustration-hero.svg" alt="Hero Illustration" />
+      <div class="p-7 text-center">
+        <h1 class="text-dark-blue text-2xl font-bold mb-4">Order Summary</h1>
+        <p class="text-desaturated-blue">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div
+          class="bg-pale-blue bg-opacity-40 flex items-center text-sm justify-between p-4 rounded-lg my-5"
+        >
+          <div class="flex items-center">
+            <img src="/images/icon-music.svg" class="mr-4" alt="Music" />
+            <div>
+              <h2 class="text-dark-blue font-bold">Annual Plan</h2>
+              <span class="text-desaturated-blue">$59.99/year</span>
+            </div>
+          </div>
+          <a href="#" class="underline text-bright-blue">Change</a>
+        </div>
+        <div class="flex flex-col text-sm gap-3">
+          <button class="bg-bright-blue text-very-pale-blue p-3 rounded-lg">
+            Proceed to Payment
+          </button>
+          <button class="text-desaturated-blue p-3 rounded-lg">
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </article>
+  </body>
 </html>
