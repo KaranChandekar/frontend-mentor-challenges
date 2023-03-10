@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="/styles/output.css" />
     <title>Frontend Mentor | Order summary card</title>
   </head>
-  <body class="bg-pale-blue h-screen w-full grid place-content-center">
+  <body
+    class="bg-pale-blue h-screen w-full grid place-content-center bg-[url(/images/)]"
+  >
     <article
       class="max-w-[330px] rounded-2xl overflow-hidden bg-very-pale-blue shadow-2xl shadow-desaturated-blue mx-4"
     >
@@ -37,13 +39,21 @@
               <span class="text-desaturated-blue">$59.99/year</span>
             </div>
           </div>
-          <a href="#" class="underline text-bright-blue">Change</a>
+          <a
+            href="#"
+            class="underline text-bright-blue hover:no-underline hover:text-opacity-80"
+            >Change</a
+          >
         </div>
         <div class="flex flex-col text-sm gap-3">
-          <button class="bg-bright-blue text-very-pale-blue p-3 rounded-lg">
+          <button
+            class="bg-bright-blue text-very-pale-blue font-bold p-3 rounded-lg hover:bg-opacity-75"
+          >
             Proceed to Payment
           </button>
-          <button class="text-desaturated-blue p-3 rounded-lg">
+          <button
+            class="text-desaturated-blue p-3 rounded-lg font-bold hover:text-dark-blue"
+          >
             Cancel Order
           </button>
         </div>
