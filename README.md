@@ -13,6 +13,7 @@ Here are the challenges that I have completed so far:
 - [Challenge 3: QR Code Component](./qr-code-component/)
 - [Challenge 4: NFT Preview Card Component](./nft-preview-card-component/)
 - [Challenge 5: Order Summary Component](./order-summary-component/)
+- [Challenge 6: Profile Card Component](./06-profile-card-component/)
 
 ## Technologies Used
 
