@@ -24,7 +24,6 @@ For each challenge, I used HTML, CSS, and JavaScript to create a responsive webs
 - [Google Fonts](https://fonts.google.com/)
 
 ## How to Run the Code
-
 To view my solutions to the challenges, you can simply open the HTML files in your web browser.
 
 Alternatively, you can clone this repository and run a local web server to view the challenges. Here are the steps to do this:
