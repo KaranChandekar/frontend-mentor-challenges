@@ -17,7 +17,6 @@ Here are the challenges that I have completed so far:
 - [Challenge 7: Stats Preview Card Component](./07-stats-preview-card-component/)
 
 ## Technologies Used
-
 For each challenge, I used HTML, CSS, and JavaScript to create a responsive website. I used the following tools and frameworks:
 
 - [Tailwind](https://tailwindcss.com/)
