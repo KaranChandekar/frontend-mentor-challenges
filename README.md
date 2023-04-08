@@ -15,6 +15,7 @@ Here are the challenges that I have completed so far:
 - [Challenge 5: Order Summary Component](./order-summary-component/)
 - [Challenge 6: Profile Card Component](./06-profile-card-component/)
 - [Challenge 7: Stats Preview Card Component](./07-stats-preview-card-component/)
+
 ## Technologies Used
 
 For each challenge, I used HTML, CSS, and JavaScript to create a responsive website. I used the following tools and frameworks:
