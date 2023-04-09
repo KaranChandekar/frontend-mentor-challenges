@@ -19,6 +19,7 @@ Here are the challenges that I have completed so far:
 ## Technologies Used
 
 For each challenge, I used HTML, CSS, and JavaScript to create a responsive website. I used the following tools and frameworks:
+
 - [Tailwind](https://tailwindcss.com/)
 - [Google Fonts](https://fonts.google.com/)
 
