@@ -28,7 +28,6 @@ For each challenge, I used HTML, CSS, and JavaScript to create a responsive webs
 To view my solutions to the challenges, you can simply open the HTML files in your web browser.
 
 Alternatively, you can clone this repository and run a local web server to view the challenges. Here are the steps to do this:
-
 1. Clone the repository to your local machine.
 2. Navigate to the challenge subdirectory that you want to view (e.g., `cd results-summary-component`).
 3. Start a local web server (e.g., `python -m http.server`).
